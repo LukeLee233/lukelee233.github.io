@@ -1,5 +1,5 @@
 # Your Website Title
-title: Melvin Ch'ng
+title: Luke Lee's Blog
 
 # Your Website URL
 url: 'https://lukelee233.github.io'
@@ -8,20 +8,20 @@ url: 'https://lukelee233.github.io'
 baseurl: '' 
 
 # Google Analytics
-ga_index: UA-XXXXXXXX-X
-ga_cv: UA-XXXXXXXX-X
+#ga_index: UA-XXXXXXXX-X
+#ga_cv: UA-XXXXXXXX-X
 
 # Index page and Profile Information
-name: Melvin Ch'ng
-tagline: Software Developer, IoT, Reverse Engineering
+name: Luke Lee
+tagline: Vehicle Routing Problem, NLP, Reinforcement Learning
 pic: profile.png # profile.png can be found at /assets/images/profile.png
-description: Full Stack Developer, IoT, Reverse Engineering
-description_tiny: 'Home: +60-4 | Studied: +1-408 | Work: +60-3'
-email: you.email.email@gmail.com
-website: melvinchng.github.io # do not add http://
-linkedin: realmelvinchng
-github: melvinchng
-twitter: '@realmelvinchng'
+description: C++ Developer, Milanista
+#description_tiny: 'Home: +60-4 | Studied: +1-408 | Work: +60-3'
+email: liwenyanghust@gmail.com
+website: lukelee233.github.io # do not add http://
+#linkedin: realmelvinchng
+github: LukeLee233
+#twitter: '@realmelvinchng'
 
 # Files or folders to be excluded
 exclude: [gitbook_source_code/]
