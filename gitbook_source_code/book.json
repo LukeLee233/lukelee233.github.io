@@ -3,8 +3,13 @@
     "styles": {
         "website": "styles/website.css"
     },
-    "title": "Articles",
-    "author": "LukeLee",
-    "language": "en",
-    "description": "my blogs"
+    "title": "Blogs",
+    "author": "Luke Lee",
+    "language": "zh-hans",
+    "description": "my blogs",
+    "links" : {
+        "sidebar" : {
+            "主页" : "https://lukelee233.github.io"
+        }
+    }
 }
