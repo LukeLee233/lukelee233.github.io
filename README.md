@@ -4,3 +4,10 @@ Based on [Jekyll For Everyone](https://github.com/melvinchng/jekyll-for-everyone
 
 - My Personal Website
   - [Luke's landing page](https://lukelee233.github.io/)
+
+## How to use
+
+```shell script
+bundle install
+bundle exec jekyll serve
+```
