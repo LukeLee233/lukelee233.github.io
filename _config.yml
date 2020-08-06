@@ -26,7 +26,10 @@ github: LukeLee233
 # Files or folders to be excluded
 exclude: [gitbook_source_code/]
 
+theme: minima
+
 # All the plugins for Jekyll
 plugins:
   - jekyll-sitemap
   - listen
+  - jekyll-feed
