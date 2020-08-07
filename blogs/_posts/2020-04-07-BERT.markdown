@@ -41,7 +41,7 @@ categories: jekyll update
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="images/BERT-GPT-ELMo.png">
+    src="/blogs/images/2020-04-07-BERT/BERT-GPT-ELMo.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -68,7 +68,7 @@ GPT|left-to-right 架构，每个token只能利用到它之前的信息|在需�
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="images/BERT-input.png">
+    src="/blogs/images/2020-04-07-BERT/BERT-input.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -100,7 +100,7 @@ BERT<sub>large</sub>(最优结构)|24|1024|16|340M
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="images/BERT-train.png">
+    src="/blogs/images/2020-04-07-BERT/BERT-train.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -163,7 +163,7 @@ $$GELU(x)=0.5x(1+\tanh [\sqrt{\frac{2}{\pi}}(x+0.044715x^{3})])$$
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="images/GELU.png">
+    src="/blogs/images/2020-04-07-BERT/GELU.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
