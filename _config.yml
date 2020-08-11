@@ -7,12 +7,11 @@ url                          : "https://lukelee233.github.io/" # the base hostna
 
 blog:
   title                      : Luke's blog
-  description                  : >
-                               this should contain a proper description
+  description                  : Some funny posts
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
-  search_path                : "http://127.0.0.1:4000/archive/"
+  search_path                : "https://lukelee233.github.io"
                                 # "yourgitusername.github.io"
                                 # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
@@ -32,7 +31,7 @@ author:
   rss                       : true # generate RSS feed and show it's icon in header
   mail                      : liwenyanghust@gmail.com # change to your e-mail address
 #  twitter                   : twitter-user-name
-  github                    : https://github.com/LukeLee233
+  github                    : LukeLee233
 #  youtube                   : youtube-user-name
 #  stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
