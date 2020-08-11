@@ -1,5 +1,9 @@
-.idea
-.jekyll-cache
-gitbook_source_code/_book
-_site
-Gemfile.lock
+# Generated site
+/_site
+
+# Local packages
+/.bundle/ruby/
+
+# Temporary files
+.sass-cache/
+.jekyll-metadata
