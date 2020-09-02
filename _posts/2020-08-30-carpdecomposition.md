@@ -4,6 +4,7 @@ title: 'One neighborhood extension 论文阅读'
 date:   2020-08-30 09:38:36 +0800
 tags:
     - vrp
+    - article
 hero: https://source.unsplash.com/collection/582860/
 overlay: purple
 link: https://pdfs.semanticscholar.org/76fd/21f1e7ec4a11218d48945ca73455633a52ef.pdf
@@ -281,7 +282,9 @@ move evaluation技术的关键在于可以对具有多服务模式属性的问�
 
 # 实验分析
 
-本文将move evaluation技术集成进了两种元启发式搜索算法[ILS](),[UHGS](),具体实现细节可以参考相关文章
+本文将move evaluation技术集成进了两种元启发式搜索算法
+[ILS](graspils.html),
+[UHGS](),具体实现细节可以参考相关文章
 
 ## 参数配置
 
