@@ -13,7 +13,7 @@ published: true
 # 1. ssh免秘钥登录
 <!–-break-–>
 
-```shell
+{% highlight shell %}
 cd .ssh
 scp id_rsa.pub  <目标机器用户名>@<目标机器ip>:~
 
@@ -22,7 +22,7 @@ touch authorized_keys
 chmod 600 authorized_keys
 
 cat id_rsa.pub >> authorized_keys
-```
+{% endhighlight %}
 
 # 2. 跳板机配置
 
