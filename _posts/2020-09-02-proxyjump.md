@@ -13,7 +13,7 @@ published: true
 # 1. ssh免秘钥登录
 <!–-break-–>
 
-{% highlight shell %}
+{% highlight shell linenos %}
 cd .ssh
 scp id_rsa.pub  <目标机器用户名>@<目标机器ip>:~
 
