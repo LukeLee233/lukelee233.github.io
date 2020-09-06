@@ -22,6 +22,7 @@ touch authorized_keys
 chmod 600 authorized_keys
 
 cat id_rsa.pub >> authorized_keys
+
 {% endhighlight %}
 
 # 2. 跳板机配置
