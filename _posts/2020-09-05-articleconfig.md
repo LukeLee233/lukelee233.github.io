@@ -210,17 +210,15 @@ move 操作实现是通过dynamic programming的思想来实现的。<br>
 
 将连续的两个任务插入到另一个任务的附近，连续的任务是指在一条路径中连续服务的一组任务
 
-<div class="notice" markdown="1">
-在普通Local Search中，插入位置只考虑了后插入，在High Speed Local Search 中考虑了两个方向上的插入
-</div>
-
 - 当待插入点是Dummy Node时，需要遍历每一条路径的起点与终点，并尝试插入其附近的位置
 - 当待插入点不是Dummy Node时，需要考虑待插入任务序列的端点与插入任务是否相邻
   - 如果不相邻，需要同时考虑前插和后插两个位置
   - 如果相邻，则是能考虑插入一个位置
 
+
 <div class="notice" markdown="1">
-需要注意在插入前需要检查是否有overlap的情况，即插入任务包含在待插入序列内部
+在普通Local Search中，插入位置只考虑了后插入，在High Speed Local Search 中考虑了两个方向上的插入。<br>
+此外需要注意在插入前需要检查是否有overlap的情况，即插入任务包含在待插入序列内部
 </div>
 
 ### 2.4.3 2-opt
