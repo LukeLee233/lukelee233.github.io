@@ -284,7 +284,7 @@ move evaluation技术的关键在于可以对具有多服务模式属性的问�
 
 本文将move evaluation技术集成进了两种元启发式搜索算法
 [ILS](graspils.html),
-[UHGS](),具体实现细节可以参考相关文章
+[UHGS](multidepot-periodic.html),具体实现细节可以参考相关文章
 
 ## 参数配置
 
