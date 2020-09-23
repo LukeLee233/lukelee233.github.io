@@ -288,3 +288,24 @@ move 操作实现是通过dynamic programming的思想来实现的。<br>
 此外上述两个算符属于单目算符，并不涉及到neighbor空间的搜索
 </div>
 
+## 3. 约束处理
+
+## 3.1 载重约束
+
+载重约束可以看作0维约束，给定一个服务序列$W=\\{w_1,...w_n\\}$，
+载重约束顺序无关，时间复杂度$O(n)$
+
+$$
+Demand(i):\sum_{j=1}^{i}d(W_j)\leqslant C, \forall i \in W
+$$
+
+## 3.2 时间窗约束
+
+时间窗约束可以看做1维约束，给定一个服务序列$W=\\{w_1,...w_n\\}$，
+时间窗约束顺序相关，时间复杂度$O(n)$
+
+$$
+a_{i} \leqslant DriveT(i):t_{depot,W_1}+\sum_{j=2}^{i}t_{W_{j-1},W_{j}}  
+\ + \sum_{j=1}^{i-1}s_{W_{j}}\leqslant b_i, \forall i \in W
+$$
+
